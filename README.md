@@ -1,30 +1,13 @@
-# Dashub — Customizable Dashboard with Django
+## Dashub — Customizable Dashboard with Django
 
-> This project aims to simplify and accelerate the creation of customizable dashboards based on external data provided by the user. The platform allows any user to connect their own database, select tables and columns, apply basic operations (such as sum, average, count), and visualize the data using charts — all in a simple, modular, and reusable way. The system is designed to ensure independence between the application’s internal database and the user's data, maintaining a clean and scalable architecture.
----
-<p align="center">
-  <img src="static/ico/dashub_w.png" alt="Dashub Logo" />
+Dashub is a Django-based platform for creating customizable dashboards from user-provided databases, supporting CRUD, charts, and modular components.
+
+### About
+
+Dashub is a customizable dashboard platform built with Django that enables users to connect external databases, select tables and columns, perform basic operations like sum, average, or count, and visualize the results using interactive charts with Plotly. The system features full dashboard CRUD, user authentication, and a clean responsive interface using Django templates. Data processing is handled with Pandas, and external database connections are managed via SQLAlchemy. The architecture ensures full isolation between internal and external data, emphasizing modularity and component reuse for scalability and maintainability.
+
+<br>
+<p align="center" style="opacity:0.6;">
+MIT License – see the <a href="LICENSE">LICENSE</a> file for details.
 </p>
 
-## Features
-
-- Authentication (registration, login, logout, password reset)
-- Clean interface with responsive template Django templates
-- Full dashboard CRUD
-- External database connection via SQLAlchemy
-- Data reading and processing with Pandas
-- Interactive chart generation Plotly
-- Full isolation between internal and external data
-- Modularization and component reuse
-
-## Technologies Used
-
-- **Backend:** Django + SQLAlchemy
-- **Data Processing:** Pandas
-- **Charts:** Plotly
-- **Frontend:** Django templates
-- **Internal Database:** SQLserver
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
